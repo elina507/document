@@ -1,0 +1,1402 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Heebo:wght@100..900&family=Mozilla+Headline:wght@200..700&family=Playwrite+HU:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ruda:wght@400..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 20px 0;
+    background-color: rgb(252, 67, 104);
+    h1{
+        font-size: 25px;
+        font-weight: 600;
+        color: white;
+        font-family: Mozilla Headline;
+    }
+    p {
+        margin-top: 10px;
+        font-size: 20px;
+        font-weight: 400;
+        color: white;
+        font-family: Mozilla Headline;
+    }
+}
+
+#section {
+    margin: 30px 0;
+}
+
+.section {
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+    h1 {
+        font-size: 28px;
+        font-weight: 500;
+        font-family: Poppins;
+    }
+    img {
+        width: 600px;
+        height: auto;
+    }
+    p {
+        font-size: 17px;
+        font-weight: 400;
+        font-family: Poppins;
+    }
+    button {
+        margin-top: 20px;
+        padding: 8px 40px;
+        background-color: black;
+        color: white;
+        font-size: 28px;
+        font-weight: 500;
+        font-family: Poppins;
+        border-radius: 4px;
+        transition: 0.8s;
+        cursor: pointer;
+    }
+    button:hover {
+        transform: translateY(10px);
+        background-color: white;
+        color: black;
+    }
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    img {
+        width: 600px;
+        height: auto;
+        margin-right: 30px;
+    }
+    h1 {
+        font-size: 28px;
+        font-weight: 500;
+        font-family: Poppins;
+    }
+    h1 span {
+        color: rgb(234, 56, 56);
+    }
+    p {
+        font-size: 17px;
+        font-weight: 400;
+        font-family: Poppins;
+    }
+    button {
+        margin-top: 20px;
+        padding: 6px 30px;
+        background-color: black;
+        color: white;
+        font-size: 24px;
+        font-weight: 400;
+        font-family: Poppins;
+        border-radius: 4px;
+        transition: 0.8s;
+        cursor: pointer;
+    }
+    button:hover {
+        transform: translateY(10px);
+        background-color: white;
+        color: black;
+    }
+}
+
+.sport {
+    margin-top: 20px;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+    h1 {
+        font-size: 28px;
+        font-weight: 500;
+        font-family: Poppins;
+    }
+    h1 span {
+        color: rgb(234, 61, 61);
+    }
+    img {
+        width: 500px;
+        height: auto;
+    }
+    p {
+        margin: 10px 0;
+        font-size: 17px;
+        font-weight: 400;
+        font-family: Poppins;
+    }
+    button {
+        margin-top: 20px;
+        padding: 7px 40px;
+        background-color: black;
+        color: white;
+        font-size: 28px;
+        font-weight: 500;
+        font-family: Poppins;
+        border-radius: 4px;
+        transition: 0.8s;
+        cursor: pointer;
+    }
+    button:hover {
+        transform: translateY(10px);
+        background-color: white;
+        color: black;
+    }
+}
+
+.exercise {
+    margin-top: 20px;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 70px;
+    h1 {
+        font-size: 28px;
+        font-weight: 500;
+        font-family: Poppins;
+    }
+    img {
+        width: 500px;
+        height: auto;
+    }
+    p {
+        margin: 10px 0;
+        font-size: 17px;
+        font-weight: 400;
+        font-family: Poppins;
+    }
+    button {
+        margin-top: 20px;
+        padding: 7px 40px;
+        background-color: black;
+        color: white;
+        font-size: 28px;
+        font-weight: 500;
+        font-family: Poppins;
+        border-radius: 4px;
+        transition: 0.8s;
+        cursor: pointer;
+    }
+    button:hover {
+        transform: translateY(10px);
+        background-color: white;
+        color: black;
+    }
+}
+
+.eat {
+    margin-top: 20px;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 70px;
+    h1 {
+        font-size: 28px;
+        font-weight: 500;
+        font-family: Poppins;
+    }
+    img {
+        width: 500px;
+        height: auto;
+    }
+    p {
+        margin: 10px 0;
+        font-size: 17px;
+        font-weight: 400;
+        font-family: Poppins;
+    }
+    button {
+        margin-top: 20px;
+        padding: 7px 40px;
+        background-color: black;
+        color: white;
+        font-size: 28px;
+        font-weight: 500;
+        font-family: Poppins;
+        border-radius: 4px;
+        transition: 0.8s;
+        cursor: pointer;
+    }
+    button:hover {
+        transform: translateY(10px);
+        background-color: white;
+        color: black;
+    }
+}
+
+.h1 h1 {
+    margin-top: 50px;
+    font-size: 28px;
+        font-weight: 500;
+        font-family: Poppins;
+}
+
+.foods {
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.foods .block {
+    width: 360px;
+    height: 380px;
+    background-color: rgb(233, 215, 190);
+    border-radius: 4px;
+    h3 {
+        margin-top: 30px;
+        font-size: 20px;
+        font-weight: 500;
+        font-family: Poppins;
+        text-align: center;
+    }
+    p {
+         margin: 10px 0;
+        font-size: 17px;
+        font-weight: 400;
+        font-family: Poppins;
+        text-align: center;
+    }
+    img {
+        margin-left: 80px;
+        width: 200px;
+        height: auto;
+    }
+    .ig {
+        margin-left: 5px;
+        width: 200px;
+        height: auto;
+        margin-top: -30px;
+    }
+}
+
+.footer {
+     margin-top: 30px;
+     padding: 23px 0;
+    background-color: rgb(253, 85, 119);
+    p {
+        margin: 10px 0;
+        font-size: 20px;
+        font-weight: 400;
+        font-family: Poppins;
+    }
+    button {
+        margin-top: 20px;
+        padding: 7px 30px;
+        background-color: black;
+        color: white;
+        font-size: 22px;
+        font-weight: 400;
+        font-family: Poppins;
+        border-radius: 4px;
+        transition: 0.8s;
+        cursor: pointer;
+    }
+    button:hover {
+        transform: translateY(-10px);
+        background-color: white;
+        color: black;
+    }
+    ion-icon {
+        margin-top: 10px;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 540px) {
+    .header h1 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .header p {
+        font-size: 17px;
+        font-weight: 400;
+    }
+}
+
+@media (max-width: 440px) {
+    .header h1 {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .header p {
+        font-size: 15px;
+        font-weight: 300;
+    }
+}
+
+@media (max-width: 360px) {
+    .header h1 {
+        font-size: 12px;
+        font-weight: 300;
+    }
+    .header p {
+        font-size: 12px;
+        font-weight: 200;
+    }
+}
+
+@media (max-width: 280px) {
+    .header {
+        padding: 14px 0;
+    }
+    .header h1 {
+        font-size: 7px;
+        font-weight: 200;
+    }
+    .header p {
+        font-size: 8px;
+        font-weight: 100;
+    }
+}
+
+@media (max-width:980px) {
+    .section h1 {
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .section p {
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .section img {
+         width: 500px;
+        height: auto;
+    }
+    .section button {
+        padding: 8px 34px;
+        font-size: 24px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width:800px) {
+    .section h1 {
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .section p {
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .section img {
+         width: 400px;
+        height: auto;
+    }
+    .section button {
+        padding: 8px 27px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width:640px) {
+    .section h1 {
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .section p {
+        font-size: 7px;
+        font-weight: 300;
+    }
+    .section img {
+         width: 340px;
+        height: auto;
+    }
+    .section button {
+        padding: 5px 20px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+
+@media (max-width: 540px) {
+    .section h1 {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .section p {
+        font-size: 4px;
+        font-weight: 300;
+    }
+    .section img {
+         width: 280px;
+        height: auto;
+    }
+    .section button {
+        padding: 5px 17px;
+        font-size: 14px;
+        font-weight: 300;
+    }
+}
+
+@media (max-width: 450px) {
+    .section h1 {
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .section p {
+        font-size: 4px;
+        font-weight: 300;
+    }
+    .section img {
+         width: 200px;
+        height: auto;
+    }
+    .section button {
+        padding: 5px 14px;
+        font-size: 14px;
+        font-weight: 300;
+    }
+}
+
+@media (max-width: 300px) {
+    .section h1 {
+        font-size: 12px;
+        font-weight: 200;
+    }
+    .section p {
+        font-size: 4px;
+        font-weight: 200;
+    }
+    .section img {
+         width: 160px;
+        height: auto;
+    }
+    .section button {
+        padding: 3px 10px;
+        font-size: 10px;
+        font-weight: 100;
+    }
+}
+
+
+@media (max-width:980px) {
+    .hero h1 {
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .hero p {
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .hero img {
+         width: 500px;
+        height: auto;
+    }
+    .hero button {
+        padding: 8px 34px;
+        font-size: 24px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width:800px) {
+    .hero h1 {
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .hero p {
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .hero img {
+         width: 400px;
+        height: auto;
+    }
+    .hero button {
+        padding: 8px 27px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width:640px) {
+    .hero h1 {
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .hero p {
+        font-size: 7px;
+        font-weight: 300;
+    }
+    .hero img {
+         width: 340px;
+        height: auto;
+    }
+    .hero button {
+        padding: 5px 20px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+
+@media (max-width: 540px) {
+    .hero h1 {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .hero p {
+        font-size: 4px;
+        font-weight: 300;
+    }
+    .hero img {
+         width: 280px;
+        height: auto;
+    }
+    .hero button {
+        padding: 5px 17px;
+        font-size: 14px;
+        font-weight: 300;
+    }
+}
+
+@media (max-width: 450px) {
+    .hero h1 {
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .hero p {
+        font-size: 4px;
+        font-weight: 300;
+    }
+    .hero img {
+         width: 200px;
+        height: auto;
+    }
+    .hero button {
+        padding: 5px 14px;
+        font-size: 14px;
+        font-weight: 300;
+    }
+}
+
+@media (max-width: 300px) {
+    .hero h1 {
+        font-size: 12px;
+        font-weight: 200;
+    }
+    .hero p {
+        font-size: 4px;
+        font-weight: 200;
+    }
+    .hero img {
+         width: 160px;
+        height: auto;
+    }
+    .hero button {
+        padding: 3px 10px;
+        font-size: 10px;
+        font-weight: 100;
+    }
+}
+
+@media (max-width: 220px) {
+    .hero h1 {
+        font-size: 5px;
+        font-weight: 200;
+    }
+    .hero p {
+        font-size: 3px;
+        font-weight: 200;
+    }
+    .hero img {
+         width: 130px;
+        height: auto;
+    }
+    .hero button {
+        padding: 3px 8px;
+        font-size: 7px;
+        font-weight: 200;
+    }
+}
+
+
+@media (max-width:980px) {
+    .sport h1 {
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .sport p {
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .sport img {
+         width: 500px;
+        height: auto;
+    }
+    .sport button {
+        padding: 8px 34px;
+        font-size: 24px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width:800px) {
+    .sport h1 {
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .sport p {
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .sport img {
+         width: 400px;
+        height: auto;
+    }
+    .sport button {
+        padding: 8px 27px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width:640px) {
+    .sport h1 {
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .sport p {
+        font-size: 7px;
+        font-weight: 300;
+    }
+    .sport img {
+         width: 340px;
+        height: auto;
+    }
+    .sport button {
+        padding: 5px 20px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+
+@media (max-width: 540px) {
+    .sport h1 {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .sport p {
+        font-size: 4px;
+        font-weight: 300;
+    }
+    .sport img {
+         width: 240px;
+        height: auto;
+    }
+    .sport button {
+        padding: 5px 13px;
+        font-size: 10px;
+        font-weight: 200;
+    }
+}
+
+@media (max-width: 450px) {
+    .sport h1 {
+        font-size: 14px;
+        font-weight: 300;
+    }
+   .sport p {
+        font-size: 4px;
+        font-weight: 300;
+    }
+    .sport img {
+         width: 160px;
+        height: auto;
+    }
+    .sport button {
+        padding: 5px 10px;
+        font-size: 9px;
+        font-weight: 200;
+    }
+}
+
+@media (max-width: 300px) {
+    .sport h1 {
+        font-size: 12px;
+        font-weight: 200;
+    }
+    .sport p {
+        font-size: 4px;
+        font-weight: 200;
+    }
+    .sport img {
+         width: 130px;
+        height: auto;
+    }
+    .sport button {
+        padding: 3px 7px;
+        font-size: 7px;
+        font-weight: 200;
+    }
+}
+
+@media (max-width: 220px) {
+    .sport h1 {
+        font-size: 5px;
+        font-weight: 200;
+    }
+    .sport p {
+        font-size: 3px;
+        font-weight: 200;
+    }
+    .sport img {
+         width: 100px;
+        height: auto;
+    }
+    .sport button {
+        margin-top: -20px;
+        padding: 3px 6px;
+        font-size: 5px;
+        font-weight: 200;
+    }
+}
+
+@media (max-width: 180px) {
+    .sport h1 {
+        font-size: 3px;
+        font-weight: 200;
+    }
+    .sport p {
+        font-size: 2px;
+        font-weight: 200;
+    }
+    .sport img {
+         width: 90px;
+        height: auto;
+    }
+    .sport button {
+        margin-top: -20px;
+        padding: 3px 6px;
+        font-size: 3px;
+        font-weight: 200;
+    }
+}
+
+
+@media (max-width:980px) {
+    .exercise h1 {
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .exercise p {
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .exercise img {
+         width: 500px;
+        height: auto;
+    }
+    .exercise button {
+        padding: 8px 34px;
+        font-size: 24px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width:800px) {
+    .exercise h1 {
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .exercise p {
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .exercise img {
+         width: 400px;
+        height: auto;
+    }
+    .exercise button {
+        padding: 8px 27px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width:640px) {
+    .exercise h1 {
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .exercise p {
+        font-size: 7px;
+        font-weight: 300;
+    }
+    .exercise img {
+         width: 340px;
+        height: auto;
+    }
+    .exercise button {
+        padding: 5px 20px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+
+@media (max-width: 540px) {
+    .exercise h1 {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .exercise p {
+        font-size: 4px;
+        font-weight: 300;
+    }
+    .exercise img {
+         width: 240px;
+        height: auto;
+    }
+    .exercise button {
+        padding: 5px 13px;
+        font-size: 10px;
+        font-weight: 200;
+    }
+}
+
+@media (max-width: 450px) {
+    .exercise h1 {
+        font-size: 12px;
+        font-weight: 300;
+    }
+   .exercise p {
+        font-size: 4px;
+        font-weight: 300;
+    }
+    .exercise img {
+         width: 160px;
+        height: auto;
+    }
+    .exercise button {
+        padding: 5px 10px;
+        font-size: 9px;
+        font-weight: 200;
+    }
+}
+
+@media (max-width: 300px) {
+    .exercise h1 {
+        font-size: 12px;
+        font-weight: 200;
+    }
+    .exercise p {
+        font-size: 4px;
+        font-weight: 200;
+    }
+    .exercise img {
+         width: 130px;
+        height: auto;
+    }
+    .exercise button {
+        padding: 3px 7px;
+        font-size: 7px;
+        font-weight: 200;
+    }
+}
+
+@media (max-width: 220px) {
+    .exercise h1 {
+        font-size: 5px;
+        font-weight: 200;
+    }
+    .exercise p {
+        font-size: 3px;
+        font-weight: 200;
+    }
+    .exercise img {
+         width: 100px;
+        height: auto;
+    }
+    .exercise button {
+        margin-top: -20px;
+        padding: 3px 6px;
+        font-size: 5px;
+        font-weight: 200;
+    }
+}
+
+@media (max-width: 180px) {
+    .exercise h1 {
+        font-size: 3px;
+        font-weight: 200;
+    }
+    .exercise p {
+        font-size: 2px;
+        font-weight: 200;
+    }
+    .exercise img {
+         width: 90px;
+        height: auto;
+    }
+    .exercise button {
+        margin-top: -20px;
+        padding: 3px 6px;
+        font-size: 3px;
+        font-weight: 200;
+    }
+}
+
+
+
+@media (max-width:980px) {
+    .eat h1 {
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .eat p {
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .eat img {
+         width: 500px;
+        height: auto;
+    }
+    .eat button {
+        padding: 8px 34px;
+        font-size: 24px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width:800px) {
+    .eat h1 {
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .eat p {
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .eat img {
+         width: 400px;
+        height: auto;
+    }
+    .eat button {
+        padding: 8px 27px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width:640px) {
+    .eat h1 {
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .eat p {
+        font-size: 7px;
+        font-weight: 300;
+    }
+    .eat img {
+         width: 340px;
+        height: auto;
+    }
+    .eat button {
+        padding: 5px 20px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+
+@media (max-width: 540px) {
+    .eat h1 {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .eat p {
+        font-size: 4px;
+        font-weight: 300;
+    }
+    .eat img {
+         width: 240px;
+        height: auto;
+    }
+    .eat button {
+        padding: 5px 13px;
+        font-size: 10px;
+        font-weight: 200;
+    }
+}
+
+@media (max-width: 450px) {
+    .eat h1 {
+        font-size: 12px;
+        font-weight: 300;
+    }
+   .eat p {
+        font-size: 4px;
+        font-weight: 300;
+    }
+    .eat img {
+         width: 160px;
+        height: auto;
+    }
+    .eat button {
+        padding: 5px 10px;
+        font-size: 9px;
+        font-weight: 200;
+    }
+}
+
+@media (max-width: 300px) {
+    .eat h1 {
+        font-size: 12px;
+        font-weight: 200;
+    }
+    .eat p {
+        font-size: 4px;
+        font-weight: 200;
+    }
+    .eat img {
+         width: 130px;
+        height: auto;
+    }
+    .eat button {
+        padding: 3px 7px;
+        font-size: 7px;
+        font-weight: 200;
+    }
+}
+
+@media (max-width: 220px) {
+    .eat h1 {
+        font-size: 5px;
+        font-weight: 200;
+    }
+    .eat p {
+        font-size: 3px;
+        font-weight: 200;
+    }
+    .eat img {
+         width: 100px;
+        height: auto;
+    }
+    .eat button {
+        margin-top: -20px;
+        padding: 3px 6px;
+        font-size: 5px;
+        font-weight: 200;
+    }
+}
+
+@media (max-width: 180px) {
+    .eat h1 {
+        font-size: 3px;
+        font-weight: 200;
+    }
+    .eat p {
+        font-size: 2px;
+        font-weight: 200;
+    }
+    .eat img {
+         width: 90px;
+        height: auto;
+    }
+    .eat button {
+        margin-top: -20px;
+        padding: 3px 6px;
+        font-size: 3px;
+        font-weight: 200;
+    }
+}
+
+
+@media (max-width: 1120px) {
+    .foods .block {
+        width: 340px;
+    height: 360px;
+    }
+    .foods .block h3 {
+         font-size: 17px;
+        font-weight: 400;
+    }
+    .foods .block p {
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .foods .block img {
+        width: 200px;
+        height: auto;
+    }
+}
+
+@media (max-width: 1060px) {
+    .foods .block {
+        width: 310px;
+    height: 320px;
+    }
+    .foods .block h3 {
+         font-size: 14px;
+        font-weight: 400;
+    }
+    .foods .block p {
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .foods .block img {
+        width: 150px;
+        height: auto;
+    }
+}
+
+@media (max-width: 970px) {
+    .foods .block {
+        width: 210px;
+    height: 230px;
+    }
+    .foods .block h3 {
+         font-size: 12px;
+        font-weight: 300;
+    }
+    .foods .block p {
+        font-size: 10px;
+        font-weight: 300;
+    }
+    .foods .block img {
+        margin-left: 40px;
+        width: 130px;
+        height: auto;
+    }
+    .foods .block .ig img {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 670px) {
+    .foods .block {
+        width: 200px;
+    height: 240px;
+    }
+    .foods .block h3 {
+         font-size: 10px;
+        font-weight: 300;
+    }
+    .foods .block p {
+        font-size: 8px;
+        font-weight: 200;
+    }
+    .foods .block img {
+        margin-left: 40px;
+        width: 100px;
+        height: auto;
+    }
+    .foods .block .ig img {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 580px) {
+    .foods .block {
+        width: 160px;
+    height: 230px;
+    }
+    .foods .block h3 {
+         font-size: 14px;
+        font-weight: 300;
+    }
+    .foods .block p {
+        font-size: 12px;
+        font-weight: 300;
+    }
+    .foods .block img {
+       display: flex;
+       display: none;
+    }
+}
+
+@media (max-width: 430px) {
+    .foods .block {
+        width: 100px;
+    height: 150px;
+    }
+    .foods .block h3 {
+        margin-top: 5px;
+         font-size: 10px;
+        font-weight: 300;
+    }
+    .foods .block p {
+        font-size: 9px;
+        font-weight: 200;
+    }
+    .foods .block img {
+       display: flex;
+       display: none;
+    }
+}
+
+@media (max-width: 340px) {
+    .foods .block {
+        width: 80px;
+    height: 100px;
+    }
+    .foods .block h3 {
+        margin-top: 5px;
+         font-size: 7px;
+        font-weight: 200;
+    }
+    .foods .block p {
+        font-size: 6px;
+        font-weight: 200;
+    }
+    .foods .block img {
+       display: flex;
+       display: none;
+    }
+}
+
+@media (max-width: 250px) {
+    .foods .block {
+        width: 70px;
+    height: 70px;
+    }
+    .foods .block h3 {
+        margin-top: 5px;
+         font-size: 5px;
+        font-weight: 200;
+    }
+    .foods .block p {
+        margin-top: 3px;
+        font-size: 4px;
+        font-weight: 200;
+    }
+    .foods .block img {
+       display: flex;
+       display: none;
+    }
+}
+
+@media (max-width: 180px) {
+    .foods .block {
+        width: 70px;
+    height: 50px;
+    }
+    .foods .block h3 {
+        margin-top: 5px;
+         font-size: 4px;
+        font-weight: 200;
+    }
+    .foods .block p {
+        margin-top: 3px;
+        font-size: 3px;
+        font-weight: 200;
+    }
+    .foods .block img {
+       display: flex;
+       display: none;
+    }
+}
+
+@media (max-width: 670px) {
+    .footer p {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .footer button {
+         padding: 5px 25px;
+         font-size: 18px;
+        font-weight: 300;
+    }
+}
+
+@media (max-width: 550px) {
+    .footer p {
+        font-size: 13px;
+        font-weight: 300;
+    }
+    .footer button {
+         padding: 5px 18px;
+         font-size: 15px;
+        font-weight: 300;
+    }
+    .footer ion-icon {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 450px) {
+    .footer {
+        padding: 13px 0;
+    }
+    .footer p {
+        font-size: 8px;
+        font-weight: 300;
+    }
+    .footer button {
+         padding: 4px 12px;
+         font-size: 10px;
+        font-weight: 200;
+        margin-top: -10px;
+    }
+    .footer ion-icon {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 295px) {
+    .footer {
+        padding: 10px 0;
+    }
+    .footer p {
+        font-size: 6px;
+        font-weight: 300;
+    }
+    .footer button {
+         padding: 2px 10px;
+         font-size: 7px;
+        font-weight: 200;
+        margin-top: -10px;
+    }
+    .footer ion-icon {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 200px) {
+    .footer {
+        padding: 5px 0;
+    }
+    .footer p {
+        font-size: 4px;
+        font-weight: 300;
+    }
+    .footer button {
+         padding: 2px 8px;
+         font-size: 4px;
+        font-weight: 200;
+        margin-top: -10px;
+    }
+    .footer ion-icon {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 380px) {
+    .h1 h1 {
+        font-size: 24px;
+        font-weight: 400;
+    }
+}
+
+@media (max-width: 300px) {
+    .h1 h1 {
+        font-size: 17px;
+        font-weight: 300;
+    }
+}
+
+@media (max-width: 200px) {
+    .h1 h1 {
+        font-size: 13px;
+        font-weight: 300;
+    }
+}
